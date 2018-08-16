@@ -1,0 +1,272 @@
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color: transparent !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+html {
+    background: url('./assets/img/webmotu_banner.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar-brand {
+  color: purple !important;
+}
+
+b {
+  color: purple !important;
+}
+
+.nav-link {
+  color: purple !important;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+.about {
+  padding: 10px;
+}
+
+.footer-contact {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif !important;
+  height: 120px; /* Set the fixed height of the footer here */
+  font-size: 0.9rem !important;
+  color: #FFF;
+  padding: 30px 25px;
+}
+
+.footer-p {
+  font-size: 0.8rem !important;
+  padding-bottom:10px;
+}
+
+.about-text {
+  font-size: 1.5rem;
+}
+
+.text-purple {
+  color: rgb(71, 5, 71) !important;
+}
+
+.card-text {
+  color: rgb(71, 5, 71) !important;
+}
+
+.jumbotron-home {
+  background-color: transparent !important;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 80px 8px 0px !important;
+  height: 100%;
+  color: #FFF !important;
+  min-height: 100vh;
+  background: url('./assets/img/webmotu_banner.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron-about {
+  background-color: transparent !important;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 80px 8px 0px !important;
+  height: 100%;
+  color: #FFF !important;
+  min-height: 100vh;
+  background: url('./assets/img/background3.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 80px 8px 0px !important;
+  height: 100%;
+  color: #FFF !important;
+  min-height: 100vh;
+}
+
+@media (min-width: 992px) {
+header {
+  padding: 156px 0 100px;
+  color: black !important;
+}
+}
+
+
+.display-4 {
+  font-size:9vw !important;
+  font-weight: 900 !important;
+  line-height: .9 !important;
+}
+
+.display-4-purple {
+  font-size:9vw !important;
+  font-weight: 900 !important;
+  line-height: .9 !important;
+}
+
+.display-6 {
+  font-size:8vw !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid #FFF !important;
+}
+
+.area-about {
+  padding-left: 20px;
+  color: white; 
+}
+
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.area-secondary {
+  color: #000;
+  background-color: #ffffff;
+  padding-left: 20px;
+  opacity: .7;
+}
+
+.topSection {
+  padding-top: 75px;
+}
+
+.pageSection {
+  padding-top: 10px;
+}
+
+.section-about {
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.navbar-light {
+ background-color:#FFF !important; 
+ 
+}
+
+.clickblocker {
+  pointer-events: none;
+}
+
+.card-img-profile {
+  height: 200px;
+}
+
+.card {
+  height: 440px;
+  background-color: rgba(255, 255, 255, 0.4) !important; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important; 
+}
+
+.card-header-work {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-project {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-project-title {
+   font-weight: 600;
+}
+
+.card-project-image {
+  height: 450px;
+}
+
+.card-header {
+  color: white;
+  font-weight: bold;
+}
+
+.card-header-work-background {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  filter: blur(10px);
+  z-index: 1000;
+  min-height: 100vh;
+}
+
+.spacer {
+  margin-top: 20px;
+}
+
+@media ( max-width: 768px) {
+  .display-4 {
+    font-size:12vw !important;
+    font-weight: 900 !important;
+    line-height: 1.5 !important;
+  }
+
+  .display-4-purple {
+    font-size:12vw !important;
+    font-weight: 900 !important;
+    line-height: .9 !important;
+    color: purple !important;
+  }
+
+  .display-6 {
+    font-size:8vw !important;
+    font-weight: 900 !important;
+    line-height: 1.5 !important;
+
+  }
+
+  .card {
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4) !important; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important; 
+  }
+
+  .card-img-profile {
+    height: 150px;
+  }
+}
+
+.display-4-purple {
+  font-size:9vw !important;
+  font-weight: 900 !important;
+  line-height: .9 !important;
+  color: purple !important;
+}
+
+
+
+  
+
+
+
+
