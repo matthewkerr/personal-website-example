@@ -3,7 +3,7 @@ import Butter from 'buttercms';
 import { Link, withRouter } from 'react-router-dom';
 import Section from '../Section/Section';
 import Wrapper from '../../hoc/Wrapper';
-const butter = Butter('6eb3f6af3442a5ce6c2780542d74f8668c39b22d');
+const butter = Butter('4365t356'); // changed for your different clients
 
 class Blog extends Component {
 
